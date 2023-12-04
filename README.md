@@ -19,7 +19,7 @@ Load model in oobabooga.
 
 In app_oobaController.js you can set the model you chose. As well as play around with the model settings.
 
-This is meant to be bare. It's a simply chat window that can run the model externally from the pc it is ran on.
+This is meant to be bare. It's a simply chat window that can run the model externally from the pc it is ran on. I will most likely update the styling and add a couple settings. This is just a decent start for something bigger. Without all the massive bloat of things you don't care about.
 
 [Support on Patreon](https://patreon.com/junesiphone)
 
