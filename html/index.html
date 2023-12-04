@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name='viewport' content='initial-scale=1, viewport-fit=cover, maximum-scale=1'>
+  <title>OobaChat</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <form class="chat_form">
+      <label for="title">
+        <input type="text" name="title" class="chat_input" placeholder="Type to chat">
+        <button class="send_button"><img/></button>
+      </label>
+    </form>
+    <div class="chat"></div>
+  </div>
+
+  <script src="/index.js"></script>
+
+  <script>
+    //if on iOS it will dismiss keyboard
+    document.body.addEventListener('keyup', async (e) => {
+      if (e.key === "Enter") {
+        document.querySelector('.chat_input').blur();
+        document.querySelector('.chat_input').value = "";
+      }
+    });
+  </script>
+</body>
+</html>
