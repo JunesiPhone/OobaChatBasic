@@ -23,3 +23,5 @@ This is meant to be bare. It's a simply chat window that can run the model exter
 
 [Support on Patreon](https://patreon.com/junesiphone)
 
+
+![Screenshot](https://raw.githubusercontent.com/JunesiPhone/OobaChatBasic/main/ssa.png)
