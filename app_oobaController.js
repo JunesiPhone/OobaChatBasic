@@ -4,7 +4,6 @@ const generateResponse = async (req, res) => {
   const {title} = req.body
   let message = {role: 'user', content: `${title}`}
   history.push(message);
-  console.log(history);
   const description = await openai.createChatCompletion({
     model: "TheBloke_Yarn-Mistral-7B-64k-AWQ",
     messages: history,
